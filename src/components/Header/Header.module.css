@@ -1,0 +1,38 @@
+.header {
+    height: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    height: 50px;
+}
+.content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.title {
+    line-height: 50px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.point {
+    max-height: 30px;
+    padding: 5px 15px;
+    background: #ffffff;
+
+    text-align: center;
+    align-self: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+.point:hover{
+    background: #5500FF;
+    color: #fff;
+    cursor: pointer;
+}

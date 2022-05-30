@@ -1,0 +1,41 @@
+.wrap {
+    flex: 1;
+    min-width: 450px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    transition-duration: 0.4s;
+    margin: 20px 0;
+}
+.wrap:hover {
+    cursor: pointer;
+    background: rgb(33, 0, 99, 20%);
+}
+
+.image {
+ width: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.year {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.rating {
+    font-size: 16px;
+}
+
